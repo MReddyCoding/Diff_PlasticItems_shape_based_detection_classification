@@ -1,0 +1,8 @@
+/* Minimal Font Awesome CSS */
+.fas{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1}
+.fa-search:before{content:"\f002"}
+.fa-info-circle:before{content:"\f05a"}
+.fa-robot:before{content:"\f544"}
+.fa-tag:before{content:"\f02b"}
+.fa-check-circle:before{content:"\f058"}
+.fa-redo:before{content:"\f01e"}

@@ -1,0 +1,79 @@
+/* Custom CSS */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f0f2f5;
+    padding-top: 2rem;
+}
+.page-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+.card-header {
+    background: linear-gradient(135deg, #4361ee, #3a0ca3);
+    color: white;
+    border-radius: 20px 20px 0 0 !important;
+    padding: 1.2rem;
+    font-weight: 600;
+    border: none;
+}
+.card-body {
+    padding: 2rem;
+    background-color: white;
+}
+.result-container {
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+}
+.result-image, .result-video {
+    max-width: 100%;
+    max-height: 70vh;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    border: 5px solid white;
+}
+.btn-action {
+    background: linear-gradient(135deg, #4361ee, #3a0ca3);
+    border: none;
+    color: white;
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(67, 97, 238, 0.3);
+    margin: 0.5rem;
+}
+.action-buttons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.detection-info {
+    background-color: rgba(76, 201, 240, 0.05);
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    border-left: 5px solid #4361ee;
+}
+.info-title {
+    color: #4361ee;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+.info-point {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0.8rem;
+}

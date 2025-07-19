@@ -1,0 +1,17 @@
+/* Minimal Bootstrap CSS */
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
+@media (min-width:576px){.container{max-width:540px}}
+@media (min-width:768px){.container{max-width:720px}}
+@media (min-width:992px){.container{max-width:960px}}
+@media (min-width:1200px){.container{max-width:1140px}}
+.row{display:flex;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}
+.col,.col-1,.col-10,.col-11,.col-12,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9{position:relative;width:100%;padding-right:15px;padding-left:15px}
+.col{flex-basis:0;flex-grow:1;max-width:100%}
+.btn{display:inline-block;font-weight:400;text-align:center;vertical-align:middle;cursor:pointer;user-select:none;padding:.375rem .75rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}
+.card{position:relative;display:flex;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#fff;background-clip:border-box;border:1px solid rgba(0,0,0,.125);border-radius:.25rem}
+.card-body{flex:1 1 auto;min-height:1px;padding:1.25rem}
+.card-header{padding:.75rem 1.25rem;margin-bottom:0;background-color:rgba(0,0,0,.03);border-bottom:1px solid rgba(0,0,0,.125)}
+.mb-0{margin-bottom:0!important}
+.mb-2{margin-bottom:.5rem!important}
+.me-2{margin-right:.5rem!important}
+.mt-4{margin-top:1.5rem!important}
